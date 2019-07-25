@@ -3,17 +3,18 @@
 ## Index
 
 - [Features](#features)
-- [Support](#support)
+- [Try it!](#try)
 - [How to Run](#how-to-run)
 - [Tech Stack](#tech-stack)
 
 <a name="features"></a>
 ## Features
-Markdown이 사용된 텍스트를 서식을 적용하여 출력하는 작은 서비스
+- Markdown이 사용된 텍스트를 서식을 적용하여 출력하는 작은 서비스.
+- 기존에 작성하였던 내용이 있다면, 창을 나갔다 와도 내용이 보존됩니다.
 
-<a name="support"></a>
-## Support
-`webpack`을 전혀 사용하지 않고 프로젝트를 만드려고 하니 라이브러리 모듈을 불러오는 것이 복잡해서, `webpack`을 사용하기로 하였습니다. 대신 Webpack 구축을 미리 해둔 프로젝트 소스를 여기에 올릴 테니 이것을 기반으로 각자 작업하시면 됩니다.
+<a name="=try"></a>
+## Try it!
+[이 곳](https://2pow4.github.io/cadenzah-markdown-preview)으로 가시면 됩니다.
 
 <a name="how-to-run"></a>
 ## How to Run
@@ -36,6 +37,7 @@ $ npm run build
 
 <a name="tech-stack"></a>
 ## Tech Stack
+- [`showdown`](https://github.com/showdownjs/showdown)
 - [`react(v16.8.6)`](https://reactjs.org)
 - [`webpack(v4.37.0)`](https://webpack.js.org)
 - [`babel(v7.5.5)`](https://babeljs.io/docs/en/babel-cli)
